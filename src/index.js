@@ -9,6 +9,7 @@ import Footer from './Components/BaiTapThucHanhLayout/Footer';
 import "./index.scss";
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(

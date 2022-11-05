@@ -38,7 +38,7 @@
         padding: 0 48px;
         .banner-content {
             padding: 92px;
-            background-color: rgba(344, 249, 250);
+            background-color: rgba(248, 249, 250);
             opacity: 1;
             border-radius: 0.3rem;
             
@@ -65,7 +65,25 @@
 }
 
 // CATEGORY
-
+.category {
+    .container {
+        .category-content {
+            .category-item {
+                margin-bottom: 48px;
+                padding: 0 24px;
+                .card {
+                    .card-content {
+                        .card-icon {
+                            i {}
+                        }
+                        h2 {}
+                        p {}
+                    }
+                }
+            }
+        }
+    }
+}
 
 // FOOTER
 .footer {
