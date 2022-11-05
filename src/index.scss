@@ -1,0 +1,31 @@
+// HEADER
+.navbar {
+    
+    .container {
+        
+        .navbar-brand {
+            color: white;
+        }
+        .navbar-toggler {
+            .navbar-toggler-icon {}
+        }
+        .navbar-collapse {
+            flex-grow: 0;
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        color: rgba(255, 255, 255, 0.55);
+
+                        &:hover {
+                            color: rgba(255, 255, 255, 0.75);
+                        }
+
+                        &.active {
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
